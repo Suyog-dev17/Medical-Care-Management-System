@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+<link rel="stylesheet" href="addappointment.css">
+</head>
+<body>
+<header>
+<nav id="nav-bar">
+<div class="nav-main" >
+<div class="nav-left" >
+<div class="logo"><img src="img/2019-10-30.png" width="80px" height="80px"></div>
+<div class="cms"><h2>Medical Care Management System</h2></div>
+</div>
+</div>
+        </nav>
+</header>
+<form action="addprescription.jsp">
+<div class="log">
+               <div class="log2"><br><br>
+               
+                <input type="text" name="fname" id="1" placeholder="Patient Id"  style="width: 200px" onblur="blank1()" />
+                <p id="8" style="font-size:x-small;color: red"></p>
+               
+                    <input type="text" name="type" id="4" placeholder="Diagnosis Name" style="width: 200px"  onblur="blank4()" />
+                    <p id="11" style="font-size: x-small;color: red"></p>
+               
+               
+                <textarea rows="0" cols="200" name="description" id="7" placeholder="Prescription Description"></textarea>
+                <div class="button_cont" align="left"><br>
+                  
+                    <button type="submit"  class="log_b"><b>Register</b></button>
+                </div>
+                </div>
+           </div>
+</form>
+<script type="text/javascript">
+            function blank1(){
+      var fname=document.getElementById("1").value;
+      if(fname==""){
+      document.getElementById("8").innerHTML = "*This field cannot be blank";
+      }
+      else{
+      document.getElementById("8").innerHTML = "";
+      }
+      }
+        
+       
+            function blank4(){
+      var type=document.getElementById("4").value;
+      if(type==""){
+      document.getElementById("11").innerHTML = "*This field cannot be blank";
+      }
+      else{
+      document.getElementById("11").innerHTML = "";
+      }
+      }
+           
+      </script>
+</body>
+</html>

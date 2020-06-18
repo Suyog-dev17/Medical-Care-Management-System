@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	
+	<script src="section.js"></script>
+	
+	<style >
+		 .nav-item a:hover {
+            color: #ff8000 !important;
+            cursor: pointer;
+             background:#fed8b1;
+        }
+     .nav-item a:active {
+            color: #ff8000 !important;
+            cursor: pointer;
+            background:#fed8b1;
+        }
+.title12{
+margin-top:-60px;
+}
+.title12 h1{
+color:#ff8533;
+font-size: 30px;
+margin-top:60px;
+margin-bottom:20px;
+}
+
+.title12 h2{
+color:#fff;
+font-size: 20px;
+margin-bottom:40px;
+}
+
+.xyzw{
+margin-top: 50px;
+}
+.form-control{
+width: 600px;
+background: transparent;
+border: none;
+outline: none;
+border-bottom: 1px solid gray;
+color: #ff8533;
+font-size: 18px;
+margin-top:35px;
+margin-bottom:8px;
+margin-left:450px;
+}
+
+
+.box .submit{
+background-color: #ff8533;
+border-color: transparent;
+color: black;
+font-size: 20px;
+letter-spacing: 2px;
+height: 50px;
+margin-top: 30px;
+transition: 0.4s ease;
+}
+
+.box .submit:hover{
+background-color:red;
+color:#fff;
+cursor: pointer;
+}
+      
+	</style>
+	
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+
+	<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="collapse_target">
+	<a class="navbar-brand"><img src="img/2019-10-30.png" height="30px" width="30px"></a>
+	<span class="navbar-text">MEDICAL CARE MANAGEMENT SYSTEM</span>
+			<ul class="navbar-nav ml-auto">
+				
+				<li class="nav-item">
+					<a class="nav-link" href="#about1" id="about">About us</a>
+				</li>
+				<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"  data-toggle="dropdown" data-target="dropdown_target" href="#">Login as</a>
+          <div class="dropdown-menu" aria-labelledby="drowpdown_target">
+
+           <a class="drowpdown-item" href="#pharmacist1" id="pharmacist11">Pharmacist</a>
+           <div class="drowpdown-divider"></div>
+          <a class="drowpdown-item" href="#doctor1" id="doctor11">Doctor</a>
+            <div class="drowpdown-divider"></div>
+          <a class="drowpdown-item" href="#receptionist1" id="receptionist11">Receptionist</a>
+      </div>
+  </li>
+       
+				<li class="nav-item">
+					<a class="nav-link" href="#service1" id="service">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#team1" id="team">Team</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact1" id="contact">Contact us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#signup1" id="signup">Signup</a>
+				</li>
+		
+      </ul>
+	</div>
+</nav>
+
+
+
+
+
+<div id="about1">
+<div id="container">
+<div class="row">
+<div class="col-sm-7">
+<h2 align="center" style="color:#ff8000;margin-top:60px;">Medical Care</h2>
+<span class="border11"></span>
+<p style="color:white;margin-left:40px;margin-top:20px;">Medical Care Information management system is a  application developed for hospitals to manage staff data and patients data effectively. the main aim of developing “MEDICAL CARE INFORMATION MANAGEMENT SYSTEM” is to computerize the Front Office Management of Hospital. Medical Care Information  Management System is designed for multi-specialty hospitals, to cover a wide range of hospital administration and management processes. The project Medical Care Information system includes registration of patients, storing their details into the system, and also computerized billing in the pharmacy, and labs. Medical care is a field in which accurate record keeping and communication are critical. The software has the facility to give a unique id for every patient and stores the details of every patient and the staff automatically. With the increase of demand in hospitals, we need effective data management system for handling patient’s data, staff data and treatment details in an effective way. It deals with the collection of patient’s information, diagnosis details, etc. It includes a search facility to know the current status of each room. User can search availability of a doctor and the details of a patient using the id.</p>
+<p style="color:white;margin-left:40px"> It would also help in the complexity of maintaining the records manually and thus less time is wasted on rework. The system is used to enter the patient details and to enter the details about the medical center and the details about the in-patient and out-patient in detail and about the reports of the patients . User can login into the The Medical Care Information Management System using a username and password. To develop a Medical Care Information Management system, we take care of patient registration, drug information and concerns such as drug inquiries and complaints.It is accessible either by an administrator or receptionist. Only they can add data into the database. Proper maintenance of the drug information timely dispatching of the drugs from the main stores to the pharmacy and also maintenance of daily dispatching of the drugs to the out patients from the pharmacy to the out patients. The main function of the system is register and store patient details and doctor details and retrieve these details as and when required, and also to manipulate these details meaningfully System input contains patient details, diagnosis details, while system output is to get these details on to the screen.</p>
+</div>
+<div class="col-sm-5">
+<div class="img-wrap">
+<img src="img/health-and-medical-care-concept_23-2147505758.jpg" style="margin-top:65px;">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<div id="service1">
+<div class="container">
+<div class="services">
+<h1 class="xyz">Our Services</h1>
+<span class="border11"></span>
+</div>
+<div class="row">
+
+<div class="col-md-3 text-center">
+<div class="icon">
+<i class="fa fa-h-square" ></i>
+</div>
+<h3 class="dfg">24/7 Emergency</h3>
+<span class="border11"></span>
+<p>
+Most hospitals provide emergency care for traumas and other serious conditions.Emergency room staffs are prepared to provide triage and stabilize patients untill they can be moved to a room or treated and released.
+</p>
+</div>
+<div class="col-md-3 text-center">
+<div class="icon">
+<i class="fa fa-desktop" ></i>
+</div>
+<h3 class="dfg">Pharmacy</h3>
+<span class="border11"></span>
+<p>
+Hospital provide Pharmacy services that supply patients with medications as prescribed.In addition to providing inpatients with medicines,manu hospital pharmacies can fill prescriptions for patients as they leave.
+</p>
+</div>
+<div class="col-md-3 text-center">
+<div class="icon">
+<i class="fa fa-bed" ></i>
+</div>
+<h3 class="dfg">Maternity services</h3>
+<span class="border11"></span>
+<p>
+Most hospitals now offer more options for low risk births often known as family centered care.These mayinclude private rooms with baths where woman can labor,deliver and recover in one place without having to be moved.
+</p>
+</div>
+<div class="col-md-3 text-center">
+<div class="icon">
+<i class="fa fa-desktop" ></i>
+
+</div>
+<h3 class="dfg">Blood bank</h3>
+<span class="border11"></span>
+<p>
+Most hospitals have blood bank facilities where blood is gathered as a result of blood donation and preserved for later use in blood tranfusion.Quality in transfusion process must be good as it plays a vital role in ensuring that correct component is supplied for patient.
+</p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<div class="team-section" id="team1"><h1>OUR TEAM</h1>
+	<span class="border11"></span>
+
+<div class="ps">
+<a href="#p1"><img src="img/IMG_1458 (2).jpg" alt=""></a>
+	<a href="#p2"><img src="img/IMG_1458 (3).jpg" alt=""></a>
+	
+	
+</div>
+
+<div class="section" id="p1">
+	<span class="name">Suyog.P</span>
+	<span class="border11"></span>
+
+<p style="color:white">Dealt with the Backend of the Project using JSP and Javascript.MySQL Workbench has been used for the database. 
+</p>
+
+</div>
+<div class="section" id="p2">
+	<span class="name">V.Manikanta Sanjay</span>
+	<span class="border11"></span>
+<p style="color:white">Dealt with the Frontend of the Project using Bootstrap and the Triggers and Stored Procedures used in the database.
+	
+
+</p>
+</div>
+
+</div>
+
+<div id="contact1">
+<div class="title12">
+<h1>CONTACT US</h1>
+<span class="border11"></span>
+<h2>WE ARE HERE TO HELP YOU WITH WORLD CLASS TREATMENT</h2>
+</div>
+
+<div class="box">
+<form action="message.jsp">
+<input type="text" name="name123" class="form-control" placeholder="Enter Your Name" required><br>
+<input type="email" name="email123" class="form-control" placeholder="Enter Your Email" required><br>
+<textarea name="message123" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+<input type="submit" name="" class="form-control submit" value="SEND MESSAGE">
+</form>
+</div>
+</div>
+
+
+<div id="signup1">
+	<form action="signup.jsp">
+		<h1 id="he2">Sign Up</h1>
+		<input class="abc" id="1" type="text" placeholder="Name" name="name" onblur="blank1()" required>
+		 <p id="6" class="para" style="font-size: x-small;color:#ff8000"></p>
+		 
+		<input class="abc"type="text" id="2" placeholder="Username" name="username" onblur="blank2()" required>
+		     <p id="7" class="para" style="font-size: x-small;color:#ff8000"></p>
+               
+        <input class="abc" type="password" id="3" placeholder="Password" name="password" onblur="blank3()" required>
+          <p id="8"  class="para" style="font-size: x-small;color:#ff8000"></p>
+               
+        <input class="abc" type="email" id="4" placeholder="Email" name="email" onblur="blank4()" required />
+          <p id="9"  class="para" style="font-size: x-small;color:#ff8000"></p>
+               
+        <input class="abc" type="password" id="5" placeholder="Confirm Password" name="confirm" onblur="blank5()">
+         <p id="10" class="para" style=" font-size: x-small;color:#ff8000 "></p>
+         
+        <select class="abc" name="desig" id="6" onblur="blank6()">
+               
+        <option value="" disabled selected hidden>Select your option</option>
+        <option class="abc" value="Pharmacist">Pharmacist</option>
+        <option class="abc" value="Doctor">Doctor</option>	
+<option class="abc" value="Receptionist">Receptionist</option>
+        </select>  
+
+        
+         <div class="button_cont" align="left"><br>
+                    <button type="submit"  class="def" >Sign Up</button>
+                </div>
+    </form>
+    
+</div>
+
+<div id="pharmacist1">
+	<form action="abc.jsp">
+		<h1 id="hea2">Pharmacist Portal</h1>
+
+
+      <input class="abcd" type="email" id="20" placeholder="Email" name="email" onblur="blank_1()" required>
+          <p id="13"  class="para1" style="font-size: x-small;color:#ff8000"></p>
+		 
+		<input class="abcd"type="text" id="21" placeholder="Username" name="username" onblur="blank_2()" required>
+		     <p id="14" class="para1" style="font-size: x-small;color:#ff8000"></p>
+               
+        <input class="abcd" type="password" id="22" placeholder="Password" name="password" onblur="blank_3()" required>
+          <p id="15"  class="para1" style="font-size: x-small;color:#ff8000"></p>
+               
+       
+               
+        <input class="abcd" type="password" id="23" placeholder="Confirm Password" name="confirm" onblur="blank_4()" required>
+         <p id="16" class="para1" style=" font-size: x-small;color:#ff8000 "></p>
+         
+        
+
+        
+         <div class="button_cont" align="left"><br>
+                    <button type="submit"  class="defg" >Login</button>
+                </div>
+    </form>
+</div>
+
+<div id="doctor1">
+	<form action="def.jsp">
+		<h1 id="hea2">Doctor Portal</h1>
+
+
+      <input class="abcd" type="email" id="20" placeholder="Email" name="email" onblur="blank_1()" required>
+          <p id="13"  class="para1" style="font-size: x-small;color:#ff8000"></p>
+		 
+		<input class="abcd"type="text" id="21" placeholder="Username" name="username" onblur="blank_2()" required>
+		     <p id="14" class="para1" style="font-size: x-small;color:#ff8000"></p>
+               
+        <input class="abcd" type="password" id="22" placeholder="Password" name="password" onblur="blank_3()" required>
+          <p id="15"  class="para1" style="font-size: x-small;color:#ff8000"></p>
+               
+       
+               
+        <input class="abcd" type="password" id="23" placeholder="Confirm Password" name="confirm" onblur="blank_4()" required>
+         <p id="16" class="para1" style=" font-size: x-small;color:#ff8000 "></p>
+         
+        
+
+        
+         <div class="button_cont" align="left"><br>
+                    <button type="submit"  class="defg" >Login</button>
+                </div>
+    </form>
+</div>
+
+<div id="receptionist1">
+	<form action="ghi.jsp">
+		<h1 id="hea2">Receptionist Portal</h1>
+
+
+      <input class="abcd" type="email" id="20" placeholder="Email" name="email" onblur="blank_1()" required>
+          <p id="13"  class="para1" style="font-size: x-small;color:#ff8000"></p>
+		 
+		<input class="abcd"type="text" id="21" placeholder="Username" name="username" onblur="blank_2()" required>
+		     <p id="14" class="para1" style="font-size: x-small;color:#ff8000"></p>
+               
+        <input class="abcd" type="password" id="22" placeholder="Password" name="password" onblur="blank_3()" required>
+          <p id="15"  class="para1" style="font-size: x-small;color:#ff8000"></p>
+               
+       
+               
+        <input class="abcd" type="password" id="23" placeholder="Confirm Password" name="confirm" onblur="blank_4()" required>
+         <p id="16" class="para1" style=" font-size: x-small;color:#ff8000 "></p>
+         
+        
+
+        
+         <div class="button_cont" align="left"><br>
+                    <button type="submit"  class="defg" >Login</button>
+                </div>
+    </form>
+</div>
+
+
+
+  <script type="text/javascript">
+            function blank1(){
+      var name=document.getElementById("1").value;
+      if(name==""){
+      document.getElementById("6").innerHTML = "*This field cannot be blank";
+      }
+      else{
+      document.getElementById("6").innerHTML = "";
+      }
+      }
+            function blank2(){
+            var username=document.getElementById("2").value;
+            if(username==""){
+            document.getElementById("7").innerHTML = "*This field cannot be blank";
+            }
+            else{
+            document.getElementById("7").innerHTML = "";
+            }
+            }
+            function blank3(){
+            var password=document.getElementById("3").value;
+            if(password==""){
+            document.getElementById("8").innerHTML = "*This field cannot be blank";
+            }
+            else{
+            document.getElementById("8").innerHTML = "";
+            }
+            }
+            function blank4(){
+            var email=document.getElementById("4").value;
+            if(email==""){
+            document.getElementById("9").innerHTML = "*This field cannot be blank";
+            }
+            else{
+            document.getElementById("9").innerHTML = "";
+            }
+            }
+            function blank5(){
+            var password=document.getElementById("3").value;
+                var confirm=document.getElementById("5").value;
+            if(confirm==password){
+                document.getElementById("10").innerHTML = "";
+                }
+                else{
+                document.getElementById("10").innerHTML = "*Password doesn't match";
+            }
+            }
+            
+            
+            function blank_1(){
+                var email=document.getElementById("20").value;
+                if(email==""){
+                document.getElementById("13").innerHTML = "*This field cannot be blank";
+                }
+                else{
+                document.getElementById("13").innerHTML = "";
+                }
+                }
+            function blank_2(){
+                var username=document.getElementById("21").value;
+                if(username==""){
+                document.getElementById("14").innerHTML = "*This field cannot be blank";
+                }
+                else{
+                document.getElementById("14").innerHTML = "";
+                }
+                }
+                function blank_3(){
+                var password=document.getElementById("22").value;
+                if(password==""){
+                document.getElementById("15").innerHTML = "*This field cannot be blank";
+                }
+                else{
+                document.getElementById("15").innerHTML = "";
+                }
+                }
+               
+                function blank_4(){
+                var password=document.getElementById("22").value;
+                    var confirm=document.getElementById("23").value;
+                if(confirm==password){
+                    document.getElementById("16").innerHTML = "";
+                    }
+                    else{
+                    document.getElementById("16").innerHTML = "*Password doesn't match";
+                }
+                }
+           </script>
+
+
+</body>
+</html>

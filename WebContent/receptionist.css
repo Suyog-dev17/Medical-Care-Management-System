@@ -1,0 +1,234 @@
+@charset "ISO-8859-1";
+html{
+background-image: url("img/bg9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    margin-bottom: 0%;
+    padding-bottom: 20px;
+    overflow: hidden;
+ }
+#nav-bar{
+
+padding-top:20px;
+padding-bottom:110px;
+width:auto;
+}
+.nav-main{
+
+color:white;
+font-family:monospace;
+font-size: large;
+width:auto;
+
+}
+.nav-left{
+float:left;
+width:auto;
+}
+.logo{
+float:left;
+padding-left: 20px;
+padding-top: 10px;
+}
+.cms{
+padding-left: 100px;
+margin-left:50px;
+color:#ff8533;
+font-family: monospace;
+padding-top: 10px;
+width:auto;
+}
+.nav-right{
+
+position:relative;
+float: right;
+width: auto;
+display: inline-block;
+}
+.nav-right button:focus{
+background-color: #ff8533;
+color:black;
+}
+.ancho{
+color: #ff8533;
+width: 140px;
+text-align:justify;
+    text-decoration: none;
+    background: rgba(0,0,0,0);
+    padding: 20px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.tab{
+color:#ff8533;
+font-family:monospace;
+width:150px;
+text-align:justify;
+background-color: transparent;
+display: inline-block;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px ;
+  transition: 0.4s;
+  font-size: 18px;
+}
+#user{
+font-family: monospace;
+font-size: large;
+color: #ff8533;
+}
+#Appointments,#Patients,#Notifications {
+display: none;
+align-content: center;
+padding:40px;
+font-family: monospace;
+font-style: bold;
+}
+.wrapper{
+	text-align:auto;
+	margin-left:450px;
+}
+.wrapper1{
+	text-align:auto;
+	margin-left:550px;
+	margin-top:150px;
+}
+th{
+font-size:17px;
+border-collapse: collapse;
+color:black;
+padding:20px;
+background-color:#ff8533;
+}
+td{
+font-size:15px;
+text-align:center;
+border-collapse: collapse;
+color: #ff8533;
+padding:10px;
+background-color:black;
+}
+.btndel{
+	  font-size:15px;
+text-align:center;
+border-collapse: collapse;
+color:red;
+padding:10px 20px;
+cursor:pointer;
+text-decoration:none;
+margin-left:0px;
+	margin-right:0px;
+}
+.btndel:hover{
+	background-color:red;
+	color:black;
+	margin-left:0px;
+	margin-right:0px;
+	
+}
+.btndell{
+	font-size:15px;
+text-align:center;
+border-collapse: collapse;
+color:#ff8533;
+padding:10px 20px;
+cursor:pointer;
+text-decoration:none;
+margin-left:0px;
+	margin-right:0px;
+}
+.btndell:hover{
+	background-color:#ff8533;
+	color:black;
+	margin-left:0px;
+	margin-right:0px;
+	
+}
+.wr1{
+	
+	
+}
+.btndel11{
+	font-size:15px;
+text-align:center;
+border-collapse: collapse;
+color:#ff8533;
+padding:10px 20px;
+cursor:pointer;
+text-decoration:none;
+margin-left:35px;
+}
+.btndel11:hover{
+	background-color:#ff8533;
+	color:black;
+	
+}
+.scrolling{
+margin-top: 20px;
+height: 200px;
+}
+.scrolling th {
+margin-top: -20px;
+
+}
+.def{
+background-color: transparent;
+margin-left: 60px;                        
+}
+.efg{
+	background-color: transparent;
+margin-left: 100px; 
+}
+.addcom{
+	color: #0f0f0f;
+    font-family:monospace;
+	text-decoration: none;
+    background: #ff8533;
+    padding: 20px;
+    margin:105px 0;
+    text-align:center;
+    width:220px;
+    position:absolute;
+    border-radius: 40px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    font-size: 18px;
+}
+.addcom:hover {
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+   
+}
+.ancho1{
+color: black;
+    text-decoration: none;
+    background: #ff8533;
+    padding: 10px;
+    border-radius: 25px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    font-size: 15px;
+}
+.ancho2{
+color: black;
+    text-decoration: none;
+    background: rgba(142,141,152);
+    padding: 10px;
+    border-radius: 25px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    font-size: 15px;
+}

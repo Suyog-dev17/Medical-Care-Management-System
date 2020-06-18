@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+<link rel="stylesheet" href="addpatient.css">
+</head>
+<style>
+.desc{
+background:black;
+}
+
+</style>
+<body>
+<header>
+<nav id="nav-bar">
+<div class="nav-main" >
+<div class="nav-left" >
+<div class="logo"><img src="img/2019-10-30.png" width="80px" height="80px"></div>
+<div class="cms"><h2>Medical Care Management System</h2></div>
+</div>
+</div>
+        </nav>
+</header>
+<form action="addpatient.jsp">
+<div class="log">
+               <div class="log2"><br><br>
+               
+              
+               
+                    <input type="text" name="lname" id="2" placeholder="Patient Name"  style="width: 200px" onblur="blank2()" />
+                    <p id="9" style="font-size: x-small;color: red"></p>
+               
+                <input type="text" name="phone" id="3" placeholder="Age"  style="width: 200px" onblur="blank3()" />
+                <p id="10" style="font-size: x-small;color: red"></p>
+               
+                    <input type="text" name="type" id="4" placeholder="Sex" style="width: 200px"  onblur="blank4()" />
+                    <p id="11" style="font-size: x-small;color: red"></p>
+               
+                <input type="text" name="make" id="5" placeholder="BloodGroup" style="width: 200px"  onblur="blank5()" />
+                    <p id="12" style="font-size: x-small;color: red"></p>
+               
+                <input type="text" name="model" id="6" placeholder="Phone Number" style="width: 200px"  onblur="blank6()" />
+                    <p id="13" style="font-size: x-small;color: red"></p>
+
+                  <input type="text" name="model1" id="7" placeholder="Email id" style="width: 200px"  onblur="blank7()" />
+                    <p id="14" style="font-size: x-small;color: red"></p>   
+
+                     <input type="text" name="model2" id="8" placeholder="Address" style="width: 200px"  onblur="blank8()" />
+                    <p id="15" style="font-size: x-small;color: red"></p>
+
+                <br>
+                <textarea rows="0" cols="200" name="description" class="desc" id="9" placeholder="Patient Description" ></textarea>
+
+                <div class="button_cont" align="left"><br>
+                    <button type="submit"  class="log_b"><b>Register</b></button>
+                </div>
+                </div>
+           </div>
+</form>
+
+<script type="text/javascript">
+        
+            function blank2(){
+      var lname=document.getElementById("2").value;
+      if(lname==""){
+      document.getElementById("9").innerHTML = "*This field cannot be blank";
+      }
+      else{
+      document.getElementById("9").innerHTML = "";
+      }
+      }
+            function blank3(){
+      var phone=document.getElementById("3").value;
+      if(phone==""){
+      document.getElementById("10").innerHTML = "*This field cannot be blank";
+      }
+      else{
+      document.getElementById("10").innerHTML = "";
+      }
+      }
+            function blank4(){
+      var type=document.getElementById("4").value;
+      if(type==""){
+      document.getElementById("11").innerHTML = "*This field cannot be blank";
+      }
+      else{
+      document.getElementById("11").innerHTML = "";
+      }
+      }
+            function blank5(){
+      var make=document.getElementById("5").value;
+      if(make==""){
+      document.getElementById("12").innerHTML = "*This field cannot be blank";
+      }
+      else{
+      document.getElementById("12").innerHTML = "";
+      }
+      }
+            function blank6(){
+      var model=document.getElementById("6").value;
+      if(model==""){
+      document.getElementById("13").innerHTML = "*This field cannot be blank";
+      }
+      else{
+      document.getElementById("13").innerHTML = "";
+      }
+            }
+         function blank7(){
+      var model1=document.getElementById("7").value;
+      if(model1==""){
+      document.getElementById("14").innerHTML = "*This field cannot be blank";
+      }
+      else{
+      document.getElementById("14").innerHTML = "";
+      }
+         }
+         function blank8(){
+      var model2=document.getElementById("8").value;
+      if(model2==""){
+      document.getElementById("15").innerHTML = "*This field cannot be blank";
+      }
+      else{
+      document.getElementById("15").innerHTML = "";
+      }
+      }
+      </script>
+</body>
+</html>

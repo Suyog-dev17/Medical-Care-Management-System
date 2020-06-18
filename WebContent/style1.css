@@ -1,0 +1,115 @@
+#service1
+{
+background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(photo1.jpg);
+background-size: cover;
+background-position: center;
+color: #fff! important;
+height:650px;
+}
+.services
+{
+margin: 0px auto;
+text-align: center;
+}
+.xyz
+{
+font-family: sans-serif;
+letter-spacing: 1px;
+text-align: center;
+padding-top: 40px;
+color:#ff8000;
+}
+.dfg{	
+	color:#ff8000;
+}
+#contact1{
+padding: 0;
+text-align: center;
+background-image: url(ii1.jpg);
+background-size: cover;
+font-family: Century Gothic;
+height:630px;	
+}
+.icon
+{
+font-size: 40px;
+margin: 20px auto;
+padding: 10px;
+height: 80px;
+width: 80px;
+border: 1px solid white;
+border-radius: 50%;
+vertical-align: middle;
+text-align: center;
+}
+
+
+
+
+#hea2{
+  text-align:center;color: #ff8000;
+  font-weight:normal;margin-bottom: 20px;
+  margin-top:5px;
+}
+
+.abcd{
+    width:75%;background: none;border:1px solid #fff;border-radius:3px;
+padding:6px 20px;box-sizing:border-box;
+margin-left:50px;
+margin-bottom: 20px;  font-size: 16px;  
+color:#ff8000;
+  }
+.para1{
+  margin-left:50px;
+}
+.defg{
+  background: #ff8000;
+  border:0;
+  height: 50px;
+  margin-left: 180px;
+  cursor:pointer;
+  border-radius:10px;
+  width:90px;
+}
+.defg:hover{
+  background:#fed8b1;
+  color:#ff8000;
+}
+
+#pharmacist1{
+  width:500px;
+background: #3e3d3d;
+padding: 40px 20px;
+margin-top:60px;
+box-sizing: border-box;
+position: fixed;left: 50%;top: 50%;
+transform:translate(-50%,-50%);
+} 
+
+#pharmacist1{
+	display:none;
+}
+#doctor1{
+	  width:500px;
+background: #3e3d3d;
+padding: 40px 20px;
+margin-top:60px;
+box-sizing: border-box;
+position: fixed;left: 50%;top: 50%;
+transform:translate(-50%,-50%);
+}
+#doctor1{
+	display:none;
+}
+#receptionist1{
+	  width:500px;
+background: #3e3d3d;
+padding: 40px 20px;
+margin-top:60px;
+box-sizing: border-box;
+position: fixed;left: 50%;top: 50%;
+transform:translate(-50%,-50%);
+}
+#receptionist1{
+	display:none;
+}
